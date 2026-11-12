@@ -89,3 +89,8 @@ GitHub repozitoriyasi loyiha kodini ommaga ko'rsatadi. GitHub Pages faqat fronte
 ## Mualliflik / o'quv loyiha
 
 Ushbu loyiha ta'limiy amaliy ish sifatida tayyorlangan.
+
+
+## GitHub Pages demo
+
+Frontend demo deploys automatically from the repository root using GitHub Actions. The backend API and Docker app run separately using Docker Compose.

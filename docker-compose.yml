@@ -1,0 +1,12 @@
+services:
+  smart-agriculture:
+    build: .
+    container_name: smart-agriculture-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - agriculture-data:/app/server/data
+    restart: unless-stopped
+
+volumes:
+  agriculture-data:
